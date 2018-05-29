@@ -4,9 +4,9 @@ function happyHolidays(){
 }
 
 function happyHolidaysTo(string) {
-  return 'Happy holidays,' + ${string} +'!'
+  return 'Happy holidays, \${string}'
 }
 
 function happyHolidayTo(holiday, name) {
-  return 'Happy ' + ${holiday} + ',' + ${name} + '!'
+  return 'Happy \${holiday, \${name}!'
 }
